@@ -1,0 +1,48 @@
+.content
+{
+  padding:3rem 10rem;
+}
+.content p{
+  font-size: 1rem;
+  color:white;
+}
+.image
+{
+  flex-shrink: 0;
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  background-image: url('../assets/images/anand_icon.png');
+  background-size: cover;
+}
+.main-header
+{
+  display:flex;
+  flex-shrink:0;
+}
+.main-header p{
+  padding: 33px;
+  color: black;
+}
+
+.main-header ~ p{
+  font-size:1rem;
+  color: #000;
+}
+
+/*Less than Medium devices (tablets, 768px and down)*/
+@media (max-width: 767px)
+{
+  .content
+  {
+    padding:3rem 2rem;
+  }
+  .main-header
+  {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+

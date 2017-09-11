@@ -14,27 +14,6 @@ p{
   font-size: 1rem;
   color:white;
 }
-.content
-{
-  padding:3rem 10rem;
-}
-.image
-{
-  flex-shrink: 0;
-  width:180px;
-  height:180px;
-  border-radius:50%;
-  background-image: url('../assets/images/anand_icon.png');
-  background-size: cover;
-}
 .inline-block{
   display: inline-block;
-}
-.main-header
-{
-  display:flex;
-  flex-shrink:0;
-}
-.main-header p{
-  padding: 33px;
 }

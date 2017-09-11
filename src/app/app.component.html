@@ -1,19 +1,9 @@
 <section class="portfolio-container">
   <nav>
-    <a href="/about/">ABOUT</a> |
-    <a href="/portfolio/">PORTFOLIO</a> |
-    <a href="/blog/">BLOG</a> |
-    <a href="/contact/">CONTACT</a>
+    <a routerLink="/home/">HOME</a> |
+    <a routerLink="/portfolio/">PORTFOLIO</a> |
+    <a routerLink="/blog/">BLOG</a> |
+    <a routerLink="/contact/">CONTACT</a>
   </nav>
-  <h1>Hi, I'm Anand</h1>
-  <p>Front End Web & Mobile Developer</p>
-</section>
-<section class="content">
-  <div class="main-header">
-      <div class="image">
-      </div>
-      <p>I am a front end and mobile developer working on mobile responsive websites and hybrid mobile applications.</p>
- </div>
-  <p>I have 10 years of experience in AngularJS1, Angular2 and Angular4, ES6, Unit testing, Automation testing, JSDocs, ngDocs, Karma, Jasmine, Protractor, Gulp, Bootstrap, Less, Sass, Typescript, Bower, npm, NodeJS, ExpressJS, Restify, mongojs, MongoDB, HTML5, Javascript, CSS3, Git, Git Hub, Source Tree, Appcelerator Titanium, jQuery, jQuery Mobile, Cordova, Android, Blackberry WebWorks, J2ME in developing web applications and mobile applications.
- </p>
+  <router-outlet></router-outlet>
 </section>
