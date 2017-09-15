@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-blog',
   template: `<section class="content">
-    <h1>My Thoughts</h1>
-    <p>My latest ideas</p>
+    <h1>Web development blog</h1>
+    <p>latest articles</p>
   </section>
   <section>
     <img src="./assets/images/giphy.gif" alt="coming soon image">
