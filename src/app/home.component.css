@@ -20,13 +20,21 @@
   display:flex;
   flex-shrink:0;
 }
+.main-header h1 {
+  color: #666;
+  text-align:left;
+  margin:1.2em;
+  font-size: 1em;
+  padding-top:1.5em;
+}
 .main-header p{
   padding: 33px;
   color:#666;
 }
 
 .main-header ~ p{
-  font-size:1rem;
+  font-size:1.3rem;
+  text-align:left;
   color:#666;
 }
 

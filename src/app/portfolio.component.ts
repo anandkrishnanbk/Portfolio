@@ -6,7 +6,6 @@ import {Component } from '@angular/core';
       <p>Take a look at some of the work I have done</p>
     </section>
     <section>
-      <img src="./assets/images/giphy.gif" alt="coming soon image">
     </section>`,
     styles: [`
       .content {
